@@ -69,3 +69,16 @@ body {
     text-align: center;
     color: hsl(0, 0%, 55%);
 }
+
+.sct__cards {
+    margin: 20px;
+}
+
+.sct__cards img {
+    width: 100%;
+}
+
+.sct__cards__title {
+    position: relative;
+    top: 0;
+}
