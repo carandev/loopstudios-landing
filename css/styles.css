@@ -5,6 +5,9 @@ html {
 body {
     margin: 0;
 }
+picture {
+    border-image: none;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -64,21 +67,50 @@ body {
 
 .interactive-sct__paragraph {
     margin: 0 20px;
+
     font-family: 'Alata', sans-serif;
     font-size: 1.5rem;
     text-align: center;
+
     color: hsl(0, 0%, 55%);
 }
 
 .sct__cards {
+    position: relative;
     margin: 20px;
 }
 
 .sct__cards img {
+    display: block;
     width: 100%;
+
+    filter: brightness(50%);
 }
 
 .sct__cards__title {
-    position: relative;
-    top: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    width: 150px;
+
+    margin: 0;
+
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+
+    color: #fff;
+}
+.creation-sct__a {
+    padding: 10px 20px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: #000 solid 1px;
+    color: #000;
 }
